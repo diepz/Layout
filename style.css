@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid gray;
+
+
+}
+header h1 {
+    font-family: Tahoma;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+header {
+    background: black;
+}
+nav {
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid #9E9E9E;
+    padding: 16px;
+    overflow: hidden;
+    float: left;
+}
+footer {
+    clear: left;
+
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+}
